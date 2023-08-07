@@ -17,7 +17,11 @@ img{
     background-color: #fff;
 }
 h1,h2,h3,h4,h5,h6{
-    font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+
+}
+span, a, p, body{
+    font-family: 'Rubik', sans-serif;
 }
 
 /* default preloader */
@@ -26,7 +30,7 @@ h1,h2,h3,h4,h5,h6{
     width: 100%;
     background: #172027 url(./img/5f0032f29fcde316f9e0ac455a7b924b.gif) no-repeat center;
     display: flex;
-    justify-content: content;
+    justify-content: center;
     align-items: center;
     position: fixed;
     z-index: 999;
@@ -94,12 +98,13 @@ h1,h2,h3,h4,h5,h6{
     background-size: cover;
 }
 .banner-left{
-    padding-top:  140px;
+    height: 60vh;
 }
 .banner-left h2{
     color: #fff;
-    font-size: 109.44px;
+    font-size: 75px;
     line-height: 1.1em;
+    font-weight: bold;
 }
 .banner-left p{
     font-size: 18px;
@@ -197,7 +202,10 @@ h1,h2,h3,h4,h5,h6{
     width: 100%;
 }
 
-.news-section-item-left-main .news-section-item-left h2, 
+.news-section-item-left-main .news-section-item-left h2{
+    font-size: 25px;
+    font-weight: 500;
+} 
 .news-section-item-left-main .news-section-item-left p{
     font-size: 17px;
 }
@@ -272,6 +280,14 @@ h1,h2,h3,h4,h5,h6{
 .achievement-section{
     background-color: #161A50;
     padding: 80px 0;
+}
+.achievement-title{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.achievement-item p{
+    font-weight: bold;
 }
 
 
